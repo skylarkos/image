@@ -1,0 +1,8 @@
+# Lychee build system
+output
+
+# Vagrant Environment
+.vagrant
+
+# Cake Build System
+tools
