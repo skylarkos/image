@@ -114,4 +114,4 @@ if [ ! -f "$CAKE_EXE" ]; then
 fi
 
 # Start Cake
-exec mono "$CAKE_EXE" $SCRIPT "${CAKE_ARGUMENTS[@]}"
+exec mono "$CAKE_EXE" $SCRIPT "--settings_skipverification=true ${CAKE_ARGUMENTS[@]}"

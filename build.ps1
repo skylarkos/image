@@ -234,6 +234,7 @@ if ($Configuration) { $cakeArguments += "-configuration=$Configuration" }
 if ($Verbosity) { $cakeArguments += "-verbosity=$Verbosity" }
 if ($ShowDescription) { $cakeArguments += "-showdescription" }
 if ($DryRun) { $cakeArguments += "-dryrun" }
+$cakeArguments += "--settings_skipverification=true"
 $cakeArguments += $ScriptArgs
 
 # Start Cake
