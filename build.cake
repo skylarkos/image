@@ -37,7 +37,7 @@ private void RunCommands(params string[] commands)
 
 Task("Vagrant-Destroy").Does(() => 
 {
-    Information("Destroyign Vagrant environment");
+    Information("Destroying Vagrant environment");
     Vagrant.Destroy(); 
 });
 
